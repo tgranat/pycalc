@@ -2,6 +2,6 @@
 
 # Entry point
 
-from pycalc.pycalc import main
+from pycalc.__main__ import main
 
 main()
