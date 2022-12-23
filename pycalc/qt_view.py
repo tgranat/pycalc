@@ -3,6 +3,9 @@
 
 # Import QApplication and the required widgets from PyQt5.QtWidgets
 
+# "Undefined variable..." errors (for Qt.AlignRight for eample)
+# https://stackoverflow.com/questions/2112715/how-do-i-fix-pydev-undefined-variable-from-import-errors
+
 from PyQt5.QtCore import Qt
 from PyQt5.QtWidgets import QMainWindow
 from PyQt5.QtWidgets import QWidget
